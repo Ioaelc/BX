@@ -1,0 +1,15 @@
+@font-face{font-family:"MUOR Title";font-style:normal;font-weight:400;font-display:swap;src:url("assets/fonts/KMU80SungkokSerif.woff") format("woff");}
+@font-face{font-family:"MUOR Body";font-style:normal;font-weight:400;font-display:swap;src:url("assets/fonts/MaruBuri-Regular.woff") format("woff");}
+@font-face{font-family:"MUOR Body";font-style:normal;font-weight:700;font-display:swap;src:url("assets/fonts/MaruBuri-Bold.woff") format("woff");}
+
+:root{--serif:"MUOR Title","MUOR Body",serif;--sans:"MUOR Body",serif}
+body{font-family:var(--sans)}
+body *{font-family:inherit}
+h1,h2,h3,h4,h5,h6,.hero-title p,.scent-tabs button,.scent-poem,.seal,dialog>p,.etymology>span{font-family:var(--serif);font-weight:400}
+nav,button,input,textarea,select,.tiny,.section-meta,.hero-top,.hero-bottom,.ritual-head,.ritual-footer,.scent-tabs small,.etymology small,.bgm-toggle,.presentation-toggle{font-family:var(--sans)}
+h1 *,h2 *,h3 *,h4 *,h5 *,h6 *,.scent-poem *,.hero-title p *{font-family:inherit}
+
+/* Slightly more open title tracking. */
+h2,h3{letter-spacing:-.04em}
+.hero-title p{letter-spacing:-.02em}
+.scent-poem{letter-spacing:-.03em}
